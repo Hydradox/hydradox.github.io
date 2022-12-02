@@ -1,0 +1,79 @@
+.LngSelector {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+    transition: border 150ms ease-in-out;
+    cursor: pointer;
+}
+
+.SelectedLng {
+    width: 100%;
+    height: 100%;
+
+    background-color: transparent;
+    border: 0;
+
+    font-size: clamp(.1rem, 3vw, 1rem);
+}
+
+.SelectedLng:hover {
+    color: var(--link-hover-clr);
+}
+
+
+.LngList {
+    width: 15rem;
+    min-height: 5rem;
+
+    padding: .4rem 0;
+
+    background-color: var(--bg-clr-2);
+    border-radius: .5rem;
+    border: 2px solid var(--nav-border-clr);
+    box-shadow: var(--small-right-shadow);
+
+    position: fixed;
+    right: -1rem;
+    top: 4.5rem;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: right 200ms ease-in-out, opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+}
+
+.LngList.Active {
+    opacity: 1;
+    right: .5rem;
+    visibility: visible;
+}
+
+.LngItem {
+    width: 100%;
+    padding: .8rem 1rem;
+
+    font-weight: 600;
+
+    background-color: transparent;
+    border: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.SelectedIcon {
+    position: absolute;
+}
+
+.Lng {
+    margin-left: 1.5rem;
+}
+
+.LngItem:hover {
+    background-color: var(--bg-clr-3);
+}

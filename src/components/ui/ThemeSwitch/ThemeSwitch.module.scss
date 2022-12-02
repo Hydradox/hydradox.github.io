@@ -1,0 +1,56 @@
+$switchPadding: 0.35rem;
+
+.ThemeSwitch {
+    display: flex;
+    align-items: center;
+
+    width: 4.5rem;
+    aspect-ratio: 2.2 / 1;
+
+    background-color: var(--theme-switcher-bg-clr);
+    border: 0;
+    border-radius: 3rem;
+    box-shadow: var(--small-right-shadow);
+
+    position: relative;
+    cursor: pointer;
+}
+
+.ThemeSwitch > * {
+    position: absolute;
+
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+
+    margin: $switchPadding;
+}
+
+.Thumb {
+    height: calc(100% - $switchPadding * 2);
+    left: 0;
+    transform: translateX(0);
+
+    background-color: var(--theme-switcher-thumb-bg-clr);
+    box-shadow: var(--small-right-shadow);
+    border-radius: 50%;
+
+    transition: left .2s ease-in-out, transform .2s ease-in-out;
+}
+
+.Thumb.Active {
+    left: calc(100% - 2 * $switchPadding);
+    transform: translateX(-100%);
+}
+
+.Icon {
+    height: calc(90% - $switchPadding * 2);
+    width: min-content;
+
+    left: 2%;
+    transform: translateX(0);
+}
+
+.Icon.Right {
+    left: calc(98% - 2 * $switchPadding);
+    transform: translateX(-100%);
+}

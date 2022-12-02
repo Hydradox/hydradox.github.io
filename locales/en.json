@@ -1,0 +1,20 @@
+{
+	"header": {
+		"home": "Home",
+		"projects": "Projects",
+		"knowledge": "Knowledge",
+		"contact": "Contact"
+	},
+
+	"home": {
+		"hello": "Hello, I'm",
+		"dev": "Developer",
+		"typewriterReverse": true,
+		"typewriter": [
+			"Frontend",
+			"Backend",
+			"Fullstack"
+		],
+		"learnMore": "Learn more about me"
+	}
+}

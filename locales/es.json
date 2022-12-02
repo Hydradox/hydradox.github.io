@@ -1,0 +1,28 @@
+{
+	"header": {
+		"home": "Inicio",
+		"projects": "Proyectos",
+		"knowledge": "Conocimientos",
+		"contact": "Contacto"
+	},
+
+	"home": {
+		"hello": "Hola, soy",
+		"dev": "Desarrollador",
+		"typewriterReverse": false,
+		"typewriter": [
+			"Frontend",
+			"Backend",
+			"Fullstack"
+		],
+		"learnMore": "Aprende más sobre mí",
+
+		"aboutMe": [
+			"Soy un estudiante de ciclo en Desarrollo de Aplicaciones Web apasionado por las nuevas tecnlogías y el sector de las TIC.",
+
+			"Me considero una persona muy organizada y con una gran motivación a la hora de abarcar proyectos, en los cuales, dispongo de facilidad a la hora de adaptarme a las circunstancias.",
+
+			"Mis proyecciones personales a largo plazo incluyen; formar parte en un proyecto importante en una empresa del sector y desarrollar un proyecto propio con de una complejidad elevada."
+		]
+	}
+}
