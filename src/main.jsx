@@ -17,7 +17,7 @@ const routes = [
 	{ path: '*', element: <Err404 />, nodeRef: createRef() }
 ]
 
-const router = createHashRouter([{
+const router = createBrowserRouter([{
 	path: '/',
 	element: <App routes={routes} />,
 	children: routes.map(route => ({
