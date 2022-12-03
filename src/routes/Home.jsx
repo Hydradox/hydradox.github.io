@@ -1,16 +1,17 @@
 import style from './Home.module.scss'
 
-import { useState } from 'react'
+import { useState, useContext } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 import { Typewriter } from 'react-simple-typewriter'
 
+import { Mobile } from '../App'
 import DownArrow from '../assets/DownArrow'
-import Quotation from '../components/ui/Citation/Quotation'
+import Quotation from '../components/ui/Quotation/Quotation'
 
 function Home() {
+    const isMobile = useContext(Mobile)
     const [scrollPosition, setScrollPosition] = useState(0)
-
     const { t } = useTranslation('translations', { keyPrefix: 'home' });
 
     // Manejar scroll
@@ -63,7 +64,7 @@ function Home() {
             </div>
 
             <section className='Section'>
-                <Quotation textArr={t('aboutMe', { returnObjects: true })} />
+                <Quotation textArr={t('aboutMe', { returnObjects: true })} isMobile={isMobile} />
             </section>
         </div>
     );

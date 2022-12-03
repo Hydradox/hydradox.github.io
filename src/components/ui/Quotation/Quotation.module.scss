@@ -1,0 +1,150 @@
+.QuotationWrapper {
+    isolation: isolate;
+
+    width: min(100%, 1000px);
+    margin-inline: auto;
+    padding: 3rem;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.RibbonPath {
+    transition: stroke-dasharray 1.5s ease-out, filter 750ms ease-out;
+    stroke-dasharray: 5 300;
+    filter: opacity(0);
+
+    &.Show {
+        filter: opacity(1);
+        stroke-dasharray: 140;
+    }
+}
+
+.RibbonPathMobile {
+    transition: stroke-dasharray 1.5s ease-out, filter 750ms ease-out;
+    stroke-dasharray: 5 100;
+    filter: opacity(0);
+
+    &.Show {
+        filter: opacity(1);
+        stroke-dasharray: 100;
+    }
+}
+
+.Ribbon {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10rem;
+
+    &.Opposite {
+        top: auto;
+        left: auto;
+        bottom: 0;
+        right: 0;
+
+        transform: rotateX(180deg) rotateY(180deg);
+    }
+}
+
+
+$quotationDelay: 500ms;
+
+.Quotation {
+    isolation: isolate;
+    overflow: hidden;
+
+    font-size: clamp(.8em, 3vw, 1.1em);
+
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5;
+
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 4rem;
+
+    border-radius: .5rem;
+    background-color: var(--quotation-bg-clr);
+
+    transform: translateX(-5rem);
+    filter: opacity(0);
+    transition: transform 800ms ease-out $quotationDelay, filter 400ms ease-out $quotationDelay;
+
+    &.Show {
+        transform: translateX(0);
+        filter: opacity(1);
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    p:not(:last-of-type) {
+        margin-bottom: 1rem;
+    }
+}
+
+
+$quoteDistance: 2rem;
+$quoteDistanceMobile: 1rem;
+
+.QuoteMark {
+    z-index: -1;
+
+    position: absolute;
+    top: $quoteDistance;
+    left: $quoteDistance;
+
+    width: 7rem;
+    height: 7rem;
+    object-fit: contain;
+
+    fill: var(--quote-fill-clr);
+
+    transform: rotateX(180deg) rotateY(180deg);
+
+    &.Reverse {
+        top: auto;
+        left: auto;
+
+        bottom: $quoteDistance;
+        right: $quoteDistance;
+
+        transform: rotateX(0) rotateY(0);
+    }
+}
+
+
+@media screen and (max-width: 699px) {
+    .QuotationWrapper {
+        padding: 2rem 0;
+    }
+
+    .Ribbon {
+        width: 40%;
+        height: min-content;
+    }
+
+    .Quotation {
+        padding: 2rem;
+    }
+
+    .QuoteMark {
+        width: 5rem;
+        height: 5rem;
+
+        top: $quoteDistanceMobile;
+        left: $quoteDistanceMobile;
+
+        &.Reverse {
+            bottom: $quoteDistanceMobile;
+            right: $quoteDistanceMobile;
+        }
+    }
+}

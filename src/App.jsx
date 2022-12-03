@@ -1,10 +1,12 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, createContext } from 'react'
 import { useOutlet, useLocation } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 import { SwitchTransition, CSSTransition } from "react-transition-group"
 
 import Header from './components/layout/Header/Header'
 import MobileNavigation from './components/layout/MobileNavigation/MobileNavigation'
+
+export const Mobile = createContext({})
 
 function App({ routes }) {
 	// Escuchar cambios de tamaño de pantalla
@@ -28,21 +30,23 @@ function App({ routes }) {
 
 			<main>
 				<HelmetProvider>
-					<SwitchTransition>
-						<CSSTransition
-							key={location.pathname}
-							nodeRef={nodeRef}
-							classNames="fade"
-							timeout={200}
-							unmountOnExit
-						>
-							{(state) => (
-								<div ref={nodeRef}>
-									{currentOutlet}
-								</div>
-							)}
-						</CSSTransition>
-					</SwitchTransition>
+					<Mobile.Provider value={isMobile}>
+						<SwitchTransition>
+							<CSSTransition
+								key={location.pathname}
+								nodeRef={nodeRef}
+								classNames="fade"
+								timeout={200}
+								unmountOnExit
+							>
+								{(state) => (
+									<div ref={nodeRef}>
+										{currentOutlet}
+									</div>
+								)}
+							</CSSTransition>
+						</SwitchTransition>
+					</Mobile.Provider>
 				</HelmetProvider>
 			</main>
 
