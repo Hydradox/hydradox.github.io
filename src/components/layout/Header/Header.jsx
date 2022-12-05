@@ -35,7 +35,7 @@ function Header({ isMobile }) {
                 <NavLink className={({isActive}) => `${style.NavLink}${isActive ? activeClass : ''}`} to="/">{t('home')}</NavLink>
                 <NavLink className={({isActive}) => `${style.NavLink}${isActive ? activeClass : ''}`} to="/projects">{t('projects')}</NavLink>
                 <NavLink className={({isActive}) => `${style.NavLink}${isActive ? activeClass : ''}`} to="/knowledge">{t('knowledge')}</NavLink>
-                <NavLink className={({isActive}) => `${style.NavLink} btn${isActive ? activeClass : ''}`} to="/contact">{t('contact')}</NavLink>
+                <NavLink className={({isActive}) => `${style.NavLink}${isActive ? activeClass : ''}`} to="/contact">{t('contact')}</NavLink>
             </nav>)}
 
             <div className='FlexRow'>

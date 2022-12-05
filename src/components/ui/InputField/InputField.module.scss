@@ -1,0 +1,102 @@
+.InputField {
+    position: relative;
+    margin-right: 2.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 2rem;
+    color: var(--txt-clr-3);
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        border-radius: .5rem;
+
+        width: 100%;
+        height: 3px;
+        box-shadow: var(--small-right-shadow);
+
+        background: var(--input-gradient);
+        background-size: 200% 200%;
+        background-position: 0% 0;
+        transition: background-position 300ms ease-in-out;
+    }
+
+    &:focus-within::after {
+        background-position: 100% 0;
+    }
+}
+
+.Input {
+    //background-color: rgb(102, 51, 153);
+    user-select: none;
+
+    padding: 1rem .5rem;
+    font-size: 1.1em;
+    font-weight: 300;
+    font-family: 'Popins', Inter, Avenir, Helvetica, Arial, sans-serif;
+    letter-spacing: .5px;
+
+    background-color: transparent;
+    color: var(--np-txt-clr);
+
+    outline: none;
+    border: none;
+
+    &:not(:placeholder-shown) ~ .InputLabel,
+    &:focus ~ .InputLabel {
+        left: .7rem;
+        top: -.3rem;
+        font-size: .8em;
+        font-weight: 400;
+
+        &.HasIcon {
+            left: .5rem;
+        }
+    }
+}
+
+.Input.HasIcon {
+    padding-left: 1.8rem;
+}
+
+.InputLabel {
+    position: absolute;
+    top: 50%;
+    left: .5rem;
+    transform: translateY(-50%);
+
+    width: calc(100% - 1rem);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+
+    user-select: none;
+    pointer-events: none;
+    font-weight: 300;
+
+    transition: left 150ms ease-in-out, top 150ms ease-in-out, font-size 150ms ease-in-out, font-weight 150ms ease-in-out;
+}
+
+.InputLabel.HasIcon {
+    width: calc(100% - 2.3rem);
+    left: 1.8rem;
+}
+
+.InputIcon {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    svg {
+        width: fit-content;
+        height: 1.3rem;
+        object-fit: contain;
+
+        fill: var(--txt-clr-1);
+    }
+}

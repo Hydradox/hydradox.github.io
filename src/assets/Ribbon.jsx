@@ -1,7 +1,7 @@
 
 function Ribbon({ ribbonClass, pathClass }) {
     return (
-        <svg className={ribbonClass} viewBox="0 0 100 50" stroke="var(--link-clr)" fill="none"
+        <svg className={ribbonClass} viewBox="0 0 100 50" fill="none"
             clipPath="polygon(
                 0% 0%,
                 100% 0%,

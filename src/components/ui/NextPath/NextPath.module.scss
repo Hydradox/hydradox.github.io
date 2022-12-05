@@ -1,0 +1,52 @@
+.NextPath {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    width: fit-content;
+    height: 3rem;
+    margin-top: 4rem;
+    margin-inline: auto;
+
+    color: var(--np-txt-clr);
+
+
+    &:hover {
+        svg {
+            left: 100%;
+            transform: translateX(-100%);
+        }
+
+        .ArrowLine {
+            stroke-dasharray: 100;
+        }
+    }
+}
+
+
+.ArrowWrapper {
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    transition: margin-right .3s ease-in-out;
+
+    svg {
+        position: relative;
+        left: 50%;
+
+        width: fit-content;
+        height: 1rem;
+        stroke: var(--np-txt-clr);
+
+        transform: translateX(-50%);
+        transition: transform .3s ease-in-out, left .3s ease-in-out;
+    }
+}
+
+.ArrowLine {
+    transform: translateX(0);
+    stroke-dasharray: 50 100;
+    transition: stroke-dasharray .3s ease-in-out;
+}

@@ -1,6 +1,6 @@
 import React, { createRef } from 'react'
 import ReactDOM from 'react-dom/client'
-import { Routes, Route, createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import './i18n'
 import './index.scss'
@@ -17,7 +17,7 @@ const routes = [
 	{ path: '*', element: <Err404 />, nodeRef: createRef() }
 ]
 
-const router = createBrowserRouter([{
+const router = createHashRouter([{
 	path: '/',
 	element: <App routes={routes} />,
 	children: routes.map(route => ({
@@ -26,19 +26,6 @@ const router = createBrowserRouter([{
 		element: route.element
 	}))
 }])
-
-function Index() {
-	return (
-		<Routes location={location}>
-			<Route path="/" element={<App />}>
-				<Route index element={<Home />} />
-				<Route path="projects" element={<Projects />} />
-
-				<Route path="*" element={<Err404 />} />
-			</Route>
-		</Routes>
-	)
-}
 
 const Root = () => (
 	<React.StrictMode>

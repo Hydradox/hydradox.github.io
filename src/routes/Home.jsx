@@ -8,6 +8,7 @@ import { Typewriter } from 'react-simple-typewriter'
 import { Mobile } from '../App'
 import DownArrow from '../assets/DownArrow'
 import Quotation from '../components/ui/Quotation/Quotation'
+import NextPath from '../components/ui/NextPath/NextPath'
 
 function Home() {
     const isMobile = useContext(Mobile)
@@ -19,7 +20,7 @@ function Home() {
 
 
     return (
-        <div className={style.PageWrapper}
+        <div className='PageWrapper'
             onScroll={handleScroll}>
             <Helmet>
                 <title>Home | Portfolio</title>
@@ -66,6 +67,9 @@ function Home() {
             <section className='Section'>
                 <Quotation textArr={t('aboutMe', { returnObjects: true })} isMobile={isMobile} />
             </section>
+
+
+            <NextPath text={t('nextPath')} path='/projects' />
         </div>
     );
 }

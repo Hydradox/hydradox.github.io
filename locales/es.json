@@ -23,6 +23,54 @@
 			"Me considero una persona muy organizada y con una gran motivación a la hora de abarcar proyectos, en los cuales, dispongo de facilidad a la hora de adaptarme a las circunstancias.",
 
 			"Mis proyecciones personales a largo plazo incluyen; formar parte en un proyecto importante en una empresa del sector y desarrollar un proyecto propio con de una complejidad elevada."
-		]
+		],
+
+		"nextPath": "Conoce mis proyectos"
+	},
+
+	"projects": {
+		"searchProjectLabel": "Buscar proyecto",
+
+		"projects": [
+			{
+				"id": 1,
+				"name": "Aplicación de notas",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
+			},{
+				"id": 2,
+				"name": "Aplicación de notas",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
+			},{
+				"id": 3,
+				"name": "Aplicación de notas",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
+			},{
+				"id": 4,
+				"name": "Aplicación de notas",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
+			},{
+				"id": 5,
+				"name": "Aplicación de notas",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
+			},{
+				"id": 6,
+				"name": "Aplicación de notas",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
+			},{
+				"id": 7,
+				"name": "Aplicación de notas",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
+			},{
+				"id": 8,
+				"name": "Aplicación de notas",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
+			},{
+				"id": 9,
+				"name": "Aplicación de notas",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
+			}
+		],
+
+		"nextPath": "Mis estudios y conocimientos"
 	}
 }

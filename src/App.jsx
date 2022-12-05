@@ -9,6 +9,9 @@ import MobileNavigation from './components/layout/MobileNavigation/MobileNavigat
 export const Mobile = createContext({})
 
 function App({ routes }) {
+	// Remove loader
+	document.getElementById('loader').classList.add('invisible')
+
 	// Escuchar cambios de tamaño de pantalla
     const breakpoint = 700
     const [isMobile, setIsMobile] = useState(window.innerWidth < breakpoint)

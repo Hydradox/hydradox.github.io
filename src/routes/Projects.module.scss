@@ -1,0 +1,55 @@
+.SearchAndFilter {
+    display: flex;
+    flex-direction: row;
+
+    width: fit-content;
+    margin-inline: auto;
+}
+
+.Search {
+    width: min(60vw, 500px);
+}
+
+.FilterBtn {
+    width: 2.3rem;
+    height: 2.3rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    svg {
+        width: fit-content;
+        height: 2.3rem;
+        fill: var(--txt-clr-2);
+    }
+}
+
+.Filters {
+    width: 100%;
+    height: 0;
+    margin-top: 1rem;
+
+    background-color: var(--bg-clr-2);
+    border-radius: .5rem;
+    box-shadow: var(--small-center-shadow);
+
+    filter: opacity(0);
+    visibility: hidden;
+    transform: translateY(-1rem);
+    transition: height 200ms ease-in-out, filter 200ms ease-in-out, transform 200ms ease-in-out, visibility 200ms ease-in-out;
+}
+
+.Filters.Open {
+    height: 300px;
+    filter: opacity(1);
+    visibility: visible;
+    transform: translateY(0);
+}
+
+
+.ProjectGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    padding: 1rem;
+}

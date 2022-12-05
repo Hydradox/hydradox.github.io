@@ -1,0 +1,17 @@
+.Thumb {
+    transition: transform 200ms ease-in-out;
+}
+
+.Active {
+    #filter-thumb-1 {
+        transform: translateY(50%);
+    }
+
+    #filter-thumb-2 {
+        transform: translateY(-50%);
+    }
+
+    #filter-thumb-3 {
+        transform: translateY(25%);
+    }
+}

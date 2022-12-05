@@ -35,6 +35,8 @@
 }
 
 .Ribbon {
+    stroke: var(--nav-border-clr);
+
     z-index: 1;
     position: absolute;
     top: 0;
@@ -58,7 +60,7 @@ $quotationDelay: 500ms;
     isolation: isolate;
     overflow: hidden;
 
-    font-size: clamp(.8em, 3vw, 1.1em);
+    font-size: clamp(.8em, 4vw, 1.1em);
 
     font-style: italic;
     font-weight: 400;

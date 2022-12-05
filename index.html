@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
 
+    <!-- Loader CSS -->
+    <link rel="stylesheet" href="/loader.css" />
+
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,9 +20,15 @@
     <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
   </head>
   <body>
+    <div id="loader">
+      <svg width="201" height="200" viewBox="0 0 201 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="loader-c" d="M100.5 168C117 209 195.5 213.5 198 140.5H174C174 187.5 116.5 187.728 116.5 140.5V59.5C116.5 12.5 174 13 174 59.5L198 59.5C195 -11.0001 123.5 -5.50005 106 23V140.5C106 154.5 102.333 164.667 100.5 168Z" stroke-width="4" stroke-linecap="round"/>
+        <path class="loader-j" d="M106 140.695C106 216.134 3 215.402 3 140.695H24.6084C24.6084 187.446 82.2308 187.5 82.2308 140.695V3H106V140.695Z" stroke-width="4" stroke-linecap="round"/>
+      </svg>
+    </div>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-
     <script>
       // Solve Chrome phone viewport
       let vh = window.innerHeight * 0.01;

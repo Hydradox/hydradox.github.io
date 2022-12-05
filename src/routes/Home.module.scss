@@ -1,10 +1,5 @@
 $learnMoreHeight: 4rem;
 
-.PageWrapper {
-    height: calc(var(--vh, 1vh) * 100 - 4rem);
-	overflow-y: auto;
-}
-
 .HomeBanner {
     background: var(--banner-gradient);
     color: #fff;

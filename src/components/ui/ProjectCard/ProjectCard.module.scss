@@ -1,0 +1,66 @@
+.ProjectCard {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+
+    width: 100%;
+    height: 30rem;
+    border-radius: .5rem;
+    box-shadow: var(--small-center-shadow);
+
+    background-color: var(--bg-clr-2);
+    background-size: 110% 110%;
+    background-position: 50% 50%;
+    transition: background-size 300ms ease-in-out;
+
+    &:hover {
+        background-size: 150% 150%;
+
+        .Modal {
+            height: calc(100% - 7rem);
+        }
+    }
+}
+
+.OpaqueBG {
+    z-index: -1;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(51, 51, 51, 0.7) 0%, rgba(51, 51, 51, 0) 75%);
+    backdrop-filter: blur(1.5px);
+}
+
+.Title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    width: 100%;
+
+    color: #fff;
+    font-family: 'Quicksand', 'Poppins', sans-serif;
+    font-size: 2rem;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.Modal {
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+
+    width: 100%;
+    height: 6rem;
+    padding: 1rem;
+
+    color: var(--txt-clr-1);
+    background-color: var(--bg-clr-2);
+    border-radius: .8rem .8rem 0 0;
+
+    transition: height 200ms ease-in-out;
+}
