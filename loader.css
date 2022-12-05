@@ -1,0 +1,67 @@
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    z-index: 9999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.5s ease;
+}
+
+#loader.invisible {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#loader svg {
+    width: min(80%, 20rem);
+    max-height: 10rem;
+
+    stroke-dasharray: 5 300;
+    stroke-dashoffset: -100;
+
+    animation: dash-loader 5s cubic-bezier(.4,0,.6,1) infinite, rotate-loader 5s cubic-bezier(.4,0,.6,1) infinite;
+}
+
+.loader-j {
+    stroke: #0070a8aa;
+    animation: fill-color-j 5s linear infinite;
+}
+
+.loader-c {
+    stroke: #ffffffaa;
+    animation: fill-color-c 5s linear infinite;
+}
+
+
+@keyframes dash-loader {
+    50% {
+        stroke-dasharray: 100 10;
+        stroke-dashoffset: 500;
+    }
+}
+
+@keyframes rotate-loader {
+    0% { transform: rotateZ(0deg); }
+    40% { transform: rotateZ(0deg); }
+    60% { transform: rotateZ(360deg); }
+    100% { transform: rotateZ(360deg); }
+}
+
+@keyframes fill-color-j {
+    30% { fill: transparent; }
+    50% { fill: #0070A8; stroke: transparent }
+    70% { fill: transparent; }
+}
+
+@keyframes fill-color-c {
+    30% { fill: transparent; }
+    50% { fill: #fff; stroke: transparent }
+    70% { fill: transparent; }
+}
