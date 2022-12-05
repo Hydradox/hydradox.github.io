@@ -45,11 +45,3 @@
     visibility: visible;
     transform: translateY(0);
 }
-
-
-.ProjectGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 2rem;
-    padding: 1rem;
-}

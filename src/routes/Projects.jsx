@@ -5,19 +5,16 @@ import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 
 import InputField from '../components/ui/InputField/InputField'
+import ProjectGrid from '../components/ui/ProjectGrid/ProjectGrid'
 import NextPath from '../components/ui/NextPath/NextPath'
-import ProjectCard from '../components/ui/ProjectCard/ProjectCard'
 
 import Search from '../assets/Search'
 import Filter from '../assets/Filter'
-import projects from '../assets/data/projects.json'
 
 function Projects() {
     const { t } = useTranslation('translations', { keyPrefix: 'projects' })
     const [search, setSearch] = useState('')
     const [filtersOpen, setFiltersOpen] = useState(false)
-
-    const projectText = t('projects', { returnObjects: true })
 
     const handleSearch = (e) => { setSearch(e.target.value) }
     const toggleFilters = () => { setFiltersOpen(!filtersOpen) }
@@ -44,16 +41,8 @@ function Projects() {
                 </div>
             </section>
 
-            <section className={`Section ${style.ProjectGrid}`}>
-                {
-                    projects.map((project, index) => {
-                        const { name, description } = projectText.find(projectText => projectText.id === project.id)
-
-                        return (
-                            name.toLowerCase().includes(search.toLowerCase()) ? <ProjectCard key={index} name={name} description={description} image={project.img} link={project.link} /> : null
-                        )
-                    })
-                }
+            <section className='Section'>
+                <ProjectGrid search={search} filters={[]} />
             </section>
 
 
