@@ -10,7 +10,10 @@ function ProjectCard({ name, categories, description, image, link }) {
             <div className={style.OpaqueBG}></div>
             <div className={style.Title}>{name}</div>
 
-            <div className={style.Modal} title=''>dsasdsad asa das</div>
+            {/* Modal with description */}
+            <div className={style.Modal} title=''>
+                <p className={style.Description}>{description}</p>
+            </div>
         </div>
     )
 }
