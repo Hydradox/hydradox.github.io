@@ -18,7 +18,6 @@
     "react-i18next": "^12.0.0",
     "react-router-dom": "^6.4.4",
     "react-simple-typewriter": "^5.0.1",
-    "react-stonecutter": "^0.3.10",
     "react-transition-group": "^4.4.5"
   },
   "devDependencies": {

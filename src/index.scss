@@ -135,7 +135,7 @@ main > div > div {
 
 .PageWrapper {
     height: calc(var(--vh, 1vh) * 100 - 4rem);
-	overflow-y: auto;
+	overflow-y: scroll;
 }
 
 

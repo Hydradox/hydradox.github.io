@@ -1,30 +1,48 @@
 [
     {
         "id": 1,
-        "img": "notes-app.jpg"
+        "img": "notes-app.jpg",
+        "link": "https://github.com/Hydradox/hydradox.github.io",
+        "linkTxt": "GitHub"
     },{
         "id": 2,
-        "img": "notes-app.jpg"
+        "img": "portfolio.jpg",
+        "link": "https://github.com/Hydradox/hydradox.github.io",
+        "linkTxt": "GitHub"
     },{
         "id": 3,
-        "img": "notes-app.jpg"
+        "img": "notes-app.jpg",
+        "link": "https://github.com/Hydradox/hydradox.github.io",
+        "linkTxt": "GitHub"
     },{
         "id": 4,
-        "img": "notes-app.jpg"
+        "img": "notes-app.jpg",
+        "link": "https://github.com/Hydradox/hydradox.github.io",
+        "linkTxt": "GitHub"
     },{
         "id": 5,
-        "img": "notes-app.jpg"
+        "img": "notes-app.jpg",
+        "link": "https://github.com/Hydradox/hydradox.github.io",
+        "linkTxt": "GitHub"
     },{
         "id": 6,
-        "img": "notes-app.jpg"
+        "img": "notes-app.jpg",
+        "link": "https://github.com/Hydradox/hydradox.github.io",
+        "linkTxt": "GitHub"
     },{
         "id": 7,
-        "img": "notes-app.jpg"
+        "img": "notes-app.jpg",
+        "link": "https://github.com/Hydradox/hydradox.github.io",
+        "linkTxt": "GitHub"
     },{
         "id": 8,
-        "img": "notes-app.jpg"
+        "img": "notes-app.jpg",
+        "link": "https://github.com/Hydradox/hydradox.github.io",
+        "linkTxt": "GitHub"
     },{
         "id": 9,
-        "img": "notes-app.jpg"
+        "img": "notes-app.jpg",
+        "link": "https://github.com/Hydradox/hydradox.github.io",
+        "linkTxt": "GitHub"
     }
 ]
