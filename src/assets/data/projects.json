@@ -3,46 +3,82 @@
         "id": 1,
         "img": "notes-app.jpg",
         "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub"
+        "linkTxt": "GitHub",
+        "tags": {
+            "tech": ["react", "node", "mongodb"],
+            "lang": ["sass", "javascript", "html"]
+        }
     },{
         "id": 2,
         "img": "portfolio.jpg",
         "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub"
+        "linkTxt": "GitHub",
+        "tags": {
+            "tech": ["angular", "mongodb"],
+            "lang": ["sass", "typescript"]
+        }
     },{
         "id": 3,
         "img": "notes-app.jpg",
         "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub"
+        "linkTxt": "GitHub",
+        "tags": {
+            "tech": ["vue", "node", "mongodb"],
+            "lang": ["html", "css", "javascript"]
+        }
     },{
         "id": 4,
         "img": "notes-app.jpg",
         "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub"
+        "linkTxt": "GitHub",
+        "tags": {
+            "tech": ["react", "node", "mongodb"],
+            "lang": ["html", "css", "javascript"]
+        }
     },{
         "id": 5,
         "img": "notes-app.jpg",
         "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub"
+        "linkTxt": "GitHub",
+        "tags": {
+            "tech": ["react", "node", "mongodb"],
+            "lang": ["html", "css", "javascript"]
+        }
     },{
         "id": 6,
         "img": "notes-app.jpg",
         "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub"
+        "linkTxt": "GitHub",
+        "tags": {
+            "tech": ["next", "mongodb"],
+            "lang": ["css", "typescript"]
+        }
     },{
         "id": 7,
         "img": "notes-app.jpg",
         "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub"
+        "linkTxt": "GitHub",
+        "tags": {
+            "tech": ["react", "node", "mongodb"],
+            "lang": ["html", "css", "javascript"]
+        }
     },{
         "id": 8,
         "img": "notes-app.jpg",
         "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub"
+        "linkTxt": "GitHub",
+        "tags": {
+            "tech": ["react", "node", "mongodb"],
+            "lang": ["html", "css", "typescript"]
+        }
     },{
         "id": 9,
         "img": "notes-app.jpg",
         "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub"
+        "linkTxt": "GitHub",
+        "tags": {
+            "tech": ["next", "mongodb"],
+            "lang": ["html", "css", "javascript"]
+        }
     }
 ]

@@ -7,6 +7,8 @@
 	},
 
 	"home": {
+		"title": "Inicio",
+
 		"hello": "Hola, soy",
 		"dev": "Desarrollador",
 		"typewriterReverse": false,
@@ -29,7 +31,12 @@
 	},
 
 	"projects": {
+		"title": "Proyectos",
 		"searchProjectLabel": "Buscar proyecto",
+
+		"resetFilters": "Reiniciar filtros",
+		"filterByTech": "Filtrar por tecnologías",
+		"filterByLang": "Filtrar por lenguajes",
 
 		"projects": [
 			{
@@ -72,5 +79,17 @@
 		],
 
 		"nextPath": "Mis estudios y conocimientos"
+	},
+
+	"contact": {
+		"title": "Contacto",
+
+		"contactForm": {
+			"contactMe": "Contacta conmigo",
+			"name": "Nombre",
+			"email": "Correo electrónico",
+			"message": "Mensaje",
+			"send": "Enviar mensaje"
+		}
 	}
 }

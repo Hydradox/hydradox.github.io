@@ -1,0 +1,48 @@
+{
+    "react": {
+        "type": "tech",
+        "name": "React",
+        "bgClr": "linear-gradient(130deg, #159cc5 0%, #18bcee 100%)"
+    },
+    "node": {
+        "type": "tech",
+        "name": "Node JS",
+        "bgClr": "linear-gradient(130deg, #3B7F3A 0%, #6AB14D 100%)"
+    },
+    "next": {
+        "type": "tech",
+        "name": "Next JS",
+        "bgClr": "linear-gradient(130deg, #2A2A2A 0%, #5B5B5B 100%)"
+    },
+    "laravel": {
+        "type": "tech",
+        "name": "Laravel",
+        "bgClr": "linear-gradient(130deg, #ca160d 0%, #fd4036 100%)"
+    },
+
+    "html": {
+        "type": "lang",
+        "name": "HTML",
+        "bgClr": "linear-gradient(130deg, #D84924 0%, #E56027 100%)"
+    },
+    "css": {
+        "type": "lang",
+        "name": "CSS",
+        "bgClr": "linear-gradient(130deg, #006BC0 0%, #0096DC 100%)"
+    },
+    "sass": {
+        "type": "lang",
+        "name": "SASS",
+        "bgClr": "linear-gradient(130deg, #aa4477 0%, #c26191 100%)"
+    },
+    "javascript": {
+        "type": "lang",
+        "name": "JavaScript",
+        "bgClr": "linear-gradient(130deg, #E3B200 0%, #F2D100 100%)"
+    },
+    "php": {
+        "type": "lang",
+        "name": "PHP",
+        "bgClr": "linear-gradient(130deg, #444882 0%, #7175AA 100%)"
+    }
+}

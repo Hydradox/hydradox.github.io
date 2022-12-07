@@ -13,7 +13,7 @@
 }
 
 :root {
-	font-family: 'Poppins', Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-family: 'Poppins', Helvetica, Arial, sans-serif;
 	/*font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;*/
@@ -57,7 +57,7 @@ a {
 
 button {
 	font-weight: 700;
-	font-family: 'Popins', Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-family: 'Popins', Helvetica, Arial, sans-serif;
 	color: var(--txt-clr-1);
 
 	cursor: pointer;
@@ -118,7 +118,7 @@ main > div > div {
 
 .HeroBanner {
     width: 100%;
-	min-height: 400px;
+	min-height: 700px;
 	height: calc(var(--vh, 1vh) * 100 - 4rem);
 	position: relative;
 }

@@ -1,0 +1,27 @@
+{
+    "mongodb": {
+        "type": "tech",
+        "name": "MongoDB",
+        "bgClr": "linear-gradient(130deg, #51a349 0%, #49a749 100%)"
+    },
+    "typescript": {
+        "type": "lang",
+        "name": "TypeScript",
+        "bgClr": "linear-gradient(130deg, #007ACC 0%, #0096DC 100%)"
+    },
+    "react-native": {
+        "type": "tech",
+        "name": "React Native",
+        "bgClr": "linear-gradient(130deg, #159cc5 0%, #18bcee 100%)"
+    },
+    "vue": {
+        "type": "tech",
+        "name": "Vue",
+        "bgClr": "linear-gradient(130deg, #324559 0%, #01ab76 100%)"
+    },
+    "angular": {
+        "type": "tech",
+        "name": "Angular",
+        "bgClr": "linear-gradient(130deg, #a6292b 0%, #d2002f 100%)"
+    }
+}

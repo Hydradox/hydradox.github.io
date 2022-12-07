@@ -1,0 +1,7 @@
+.CardWrapper {
+    width: min(300px, 100%);
+    aspect-ratio: 2 / 1.1;
+    background-color: var(--txt-clr-4);
+
+    border-radius: .5rem;
+}

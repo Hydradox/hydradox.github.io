@@ -1,0 +1,88 @@
+.ContactPage {
+    padding-inline: 1rem;
+}
+
+.ContactForm {
+    padding: 0;
+    overflow: hidden;
+
+    height: 40rem;
+    box-shadow: var(--small-center-shadow);
+    border-radius: .5rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.FormSideImage {
+    width: 20%;
+    height: 100%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.ContactFields {
+    width: 60%;
+    margin-inline: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    .FormInput {
+        max-width: 25rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.FormTitle {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.FormValidation {
+    height: auto;
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+@media screen and (max-width: 800px) {
+    .ContactForm {
+        height: auto;
+        padding: 2rem 1rem;
+        flex-direction: column;
+    }
+
+    .FormSideImage {
+        display: none;
+    }
+
+    .ContactFields {
+        width: 90%;
+    }
+
+    .FormValidation {
+        flex-direction: column-reverse;
+    }
+}
+
+
+
+.SocialSection {
+    margin-top: 6rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}

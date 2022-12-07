@@ -19,15 +19,19 @@
 
     svg {
         width: fit-content;
-        height: 2.3rem;
+        height: 80%;
         fill: var(--txt-clr-2);
     }
 }
 
 .Filters {
+    position: relative;
+
     width: 100%;
-    height: 0;
+    max-height: 0px;
+    height: auto;
     margin-top: 1rem;
+    padding: 0;
 
     background-color: var(--bg-clr-2);
     border-radius: .5rem;
@@ -36,12 +40,89 @@
     filter: opacity(0);
     visibility: hidden;
     transform: translateY(-1rem);
-    transition: height 200ms ease-in-out, filter 200ms ease-in-out, transform 200ms ease-in-out, visibility 200ms ease-in-out;
+    transition: max-height 200ms ease-in-out, padding 200ms ease-in-out, filter 200ms ease-in-out, transform 200ms ease-in-out, visibility 200ms ease-in-out;
 }
 
 .Filters.Open {
-    height: 300px;
+    padding: 1rem;
+    max-height: 100rem;
     filter: opacity(1);
     visibility: visible;
     transform: translateY(0);
+}
+
+.Filter {
+    font-size: 1.2em;
+}
+
+.ResetFilters {
+    border: none;
+    background-color: transparent;
+    margin-bottom: .5rem;
+
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+
+    svg {
+        width: fit-content;
+        height: 1.5em;
+        fill: var(--txt-clr-2);
+    }
+
+    &.FullRotation svg {
+        animation: rotate .8s ease-in-out 0s 1 forwards;
+    }
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-720deg); }
+}
+
+.TagsWrapper {
+    margin: .5rem 0 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+
+    .Tag {
+        outline: none;
+        border: none;
+        user-select: none;
+        cursor: pointer;
+
+        filter: grayscale(.6) opacity(.4);
+        transition: filter 150ms ease-in-out;
+
+        &:focus-visible {
+            border: 3px solid var(--txt-clr-1);
+            filter: grayscale(.6) opacity(.8);
+        }
+
+        &:hover {
+            filter: grayscale(.6) opacity(.8);
+        }
+
+        &.Active {
+            filter: grayscale(0) opacity(1);
+        }
+    }
+}
+
+.Tag {
+    position: relative;
+
+    height: fit-content;
+    padding: .2rem .5rem;
+    flex-shrink: 0;
+
+    background-color: var(--bg-clr-4);
+    color: #fff;
+    box-shadow: var(--small-right-shadow);
+
+    //border: 3px solid #fff;
+    border-radius: 1rem;
+    font-size: .8em;
 }
