@@ -10,6 +10,10 @@ import InputField from '../components/ui/InputField/InputField'
 import TextArea from '../components/ui/TextArea/TextArea'
 import SocialCard from '../components/ui/SocialCard/SocialCard'
 
+import Github from '../assets/Github'
+import Instagram from '../assets/Instagram'
+import LinkedIn from '../assets/LinkedIn'
+
 function Contact() {
     const { t } = useTranslation('translations', { keyPrefix: 'contact' });
     const form = useRef();
@@ -50,9 +54,32 @@ function Contact() {
             </section>
 
             <section className={`Section ${style.SocialSection}`}>
-                <SocialCard />
-                <SocialCard />
-                <SocialCard />
+                <SocialCard
+                    link='https://github.com/hydradox'
+                    bgClassName={style.GitHubBG}
+                    icon={<Github />}
+                    isOpen={true}
+                    title='GitHub'
+                    description='Check out my GitHub profile to see my latest projects.'
+                />
+
+                <SocialCard
+                    link='https://instagram.com/jaimecantos_'
+                    bgClassName={style.InstagramBG}
+                    icon={<Instagram />}
+                    isOpen={true}
+                    title='Instagram'
+                    description='Check out my GitHub profile to see my latest projects.'
+                />
+
+                <SocialCard
+                    link='https://linkedin.com/in/jaimecantosmartinez/'
+                    bgClassName={style.LinkedInBG}
+                    icon={<LinkedIn />}
+                    isOpen={false}
+                    title='LinkedIn'
+                    description='Check out my GitHub profile to see my latest projects.'
+                />
             </section>
         </div>
     )

@@ -1,7 +1,82 @@
 .CardWrapper {
-    width: min(300px, 100%);
+    display: block;
+    position: relative;
+
+    width: min(280px, 100%);
+    min-width: 280px;
+    height: 20rem;
+
+    > * {
+        position: absolute;
+        overflow: hidden;
+    }
+}
+
+
+.LogoCard {
+    top: 50%;
+
+    width: 100%;
     aspect-ratio: 2 / 1.1;
-    background-color: var(--txt-clr-4);
+    border-radius: .5rem;
+    box-shadow: var(--small-center-shadow);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: translateY(-50%);
+    transition: transform 150ms ease-in-out, top 150ms ease-in-out;
+
+    &.Open {
+        top: 0;
+        transform: translateY(1rem);
+    }
+
+    svg {
+        height: 35%;
+        object-fit: contain;
+    }
+}
+
+
+.CardContent {
+    top: 50%;
+
+    width: 95%;
+    aspect-ratio: 2 / 1.1;
+    margin-left: 2.5%;
+    padding: 1rem;
+    padding-top: 2rem;
 
     border-radius: .5rem;
+    box-shadow: var(--small-center-shadow);
+
+    background-color: var(--bg-clr-2);
+    color: var(--txt-clr-1);
+
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+    transform: translateY(-50%);
+    transition: transform 150ms ease-in-out, top 150ms ease-in-out;
+
+    &.Open {
+        top: 0;
+        transform: translateY(100%);
+    }
+}
+
+.CardTitle {
+    font-weight: 700;
+    font-size: 1.2em;
+    letter-spacing: .5px;
+}
+
+.CardDescription {
+    font-size: .9em;
+    margin-top: .5rem;
+
+    color: var(--txt-clr-3);
 }
