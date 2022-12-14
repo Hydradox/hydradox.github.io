@@ -60,7 +60,7 @@ function Contact() {
                     icon={<Github />}
                     isOpen={true}
                     title='GitHub'
-                    description='Check out my GitHub profile to see my latest projects.'
+                    description={t('socialDesc.github')}
                 />
 
                 <SocialCard
@@ -69,7 +69,7 @@ function Contact() {
                     icon={<Instagram />}
                     isOpen={true}
                     title='Instagram'
-                    description='Check out my GitHub profile to see my latest projects.'
+                    description={t('socialDesc.instagram')}
                 />
 
                 <SocialCard
@@ -78,7 +78,7 @@ function Contact() {
                     icon={<LinkedIn />}
                     isOpen={false}
                     title='LinkedIn'
-                    description='Check out my GitHub profile to see my latest projects.'
+                    description={t('socialDesc.linkedin')}
                 />
             </section>
         </div>

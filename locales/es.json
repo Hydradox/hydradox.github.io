@@ -90,6 +90,12 @@
 			"email": "Correo electrónico",
 			"message": "Mensaje",
 			"send": "Enviar mensaje"
+		},
+
+		"socialDesc": {
+			"github": "Mi repositorio de proyectos personales donde comparto mi código.",
+			"instagram": "El sitio donde comparto  los mejores momentos de mis aventuras",
+			"linkedin": "Mi perfil profesional con mi experiencia laboral y mis estudios"
 		}
 	}
 }
