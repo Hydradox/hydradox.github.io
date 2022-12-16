@@ -10,7 +10,14 @@ export const Mobile = createContext({})
 
 function App({ routes }) {
 	// Remove loader
-	document.getElementById('loader').classList.add('invisible')
+	if(!localStorage.getItem('showLoader')) {
+		document.getElementById('loader').addEventListener('animationiteration', () => {
+			document.getElementById('loader').classList.add('invisible');
+			localStorage.setItem('showLoader', true);
+		})
+	} else {
+		document.getElementById('loader').classList.add('invisible');
+	}
 
 	// Escuchar cambios de tamaño de pantalla
     const breakpoint = 700

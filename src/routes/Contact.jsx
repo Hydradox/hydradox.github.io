@@ -47,7 +47,7 @@ function Contact() {
                     <TextArea name="message" label={t('contactForm.message')} required={true} />
 
                     <div className={style.FormValidation}>
-                        <button className='btn'>{t('contactForm.send')}</button>
+                        <button className={`btn ${style.FormSubmit}`}>{t('contactForm.send')}</button>
                         <ReCAPTCHA sitekey='6LePFF4jAAAAAJ2MlDhvzzJVzwFQoVytI4b2wjTb' />
                     </div>
                 </form>
@@ -76,7 +76,7 @@ function Contact() {
                     link='https://linkedin.com/in/jaimecantosmartinez/'
                     bgClassName={style.LinkedInBG}
                     icon={<LinkedIn />}
-                    isOpen={false}
+                    isOpen={true}
                     title='LinkedIn'
                     description={t('socialDesc.linkedin')}
                 />
