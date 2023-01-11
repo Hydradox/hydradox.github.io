@@ -7,6 +7,8 @@
 	},
 
 	"home": {
+		"title": "Home",
+
 		"hello": "Hello, I'm",
 		"dev": "Developer",
 		"typewriterReverse": true,
@@ -15,6 +17,74 @@
 			"Backend",
 			"Fullstack"
 		],
-		"learnMore": "Learn more about me"
+		"learnMore": "Learn more about me",
+
+		"aboutMe": [
+			"I'm a Web Aplication Developer student passionate about new technologies and IT in general.",
+			"I consider myself a very organized person with a great motivation when it comes to tackling projects, in which I have ease to adapt to the circumstances.",
+			"My long-term personal aspirations include; taking part in an important project in a company in the sector and developing a project of my own with a high level of complexity."
+		],
+
+		"nextPath": "Get to know my projects"
+	},
+
+	"projects": {
+		"title": "Projects",
+		"searchProjectLabel": "Search project",
+
+		"resetFilters": "Reset filters",
+		"filterByTech": "Filter by technologies",
+		"filterByLang": "Filter by languages",
+
+		"projects": [
+			{
+				"id": 1,
+				"name": "ICS events creator",
+				"description": "A small app to generate .ics files with additional parameters for recurrent events.\nThe main feature is the possibility to repeat events every X days, ignoring specific days of the week."
+			},{
+				"id": 2,
+				"name": "Revels social network",
+				"description": "An individual project made in the subject of Backend development.\nIt consists on a social network with basic functionality such as; sign up, login, post content, comments, etc."
+			},{
+				"id": 3,
+				"name": "React video player",
+				"description": "Partial project to create a React component of a video player with advanced functionality.\nThe purpose is to be used in other projects, since I consider the options in the current market aren't good enough."
+			},{
+				"id": 4,
+				"name": "Group chat app",
+				"description": "A small web app with a single chat room designed to chat with classmates at specific moments.\nIt includes the possibility to use emojis and custom stickers, and change light/dark theme, among other things."
+			},{
+				"id": 5,
+				"name": "My portfolio",
+				"description": "This same website, it's a personal project with the objective show off in a more interactive and dynamic way my abilities and knowledge."
+			}
+		],
+
+		"nextPath": "My studies and knowledge"
+	},
+
+
+	"knowledge": {
+		"title": "Knowledge",
+		"nextPath": "How to contact me?"
+	},
+
+
+	"contact": {
+		"title": "Contact",
+
+		"contactForm": {
+			"contactMe": "Contact me",
+			"name": "Name",
+			"email": "Email",
+			"message": "Message",
+			"send": "Send message"
+		},
+
+		"socialDesc": {
+			"github": "My personal repository where I share my projects",
+			"instagram": "The place where I share the best moments from my adventures",
+			"linkedin": "My professional profile with my work experience and my studies"
+		}
 	}
 }

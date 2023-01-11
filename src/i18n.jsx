@@ -4,7 +4,7 @@ import { initReactI18next } from "react-i18next";
 
 import es from '../locales/es.json';
 import en from '../locales/en.json';
-// import ca from '../locales/ca.json';
+import ca from '../locales/ca.json';
 
 const showDebug = true;
 
@@ -18,7 +18,7 @@ i18n
 		resources: {
 			es: { translations: es },
 			en: { translations: en },
-			// ca: { translations: ca }
+			ca: { translations: ca }
 		},
 		fallbackLng: "es",
 		debug: import.meta.env.MODE === 'development' ? (showDebug ? true : false) : false,

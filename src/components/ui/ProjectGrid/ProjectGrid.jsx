@@ -32,7 +32,11 @@ function ProjectGrid({ search, filters, tagClassName }) {
                 const { name, description } = projectTexts.find(p => p.id === id)
 
                 return (
-                    simplifyTxt(name).includes(simplifyTxt(search)) && hasActiveFilters(project) ? <ProjectCard key={id} name={name} categories={categories} description={description} image={img} link={link} linkTxt={linkTxt} tags={tags} tagClassName={tagClassName} /> : null
+                    simplifyTxt(name)
+                        .includes(simplifyTxt(search))
+                        && hasActiveFilters(project)
+                        ? <ProjectCard key={id} name={name} categories={categories} description={description} image={img} link={link} linkTxt={linkTxt} tags={tags} tagClassName={tagClassName} />
+                        : null
                 )
             })}
         </div>

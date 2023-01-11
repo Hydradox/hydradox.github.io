@@ -23,7 +23,7 @@ function Home() {
         <div className='PageWrapper'
             onScroll={handleScroll}>
             <Helmet>
-                <title>Home | Portfolio</title>
+                <title>{t('title')} | Portfolio</title>
             </Helmet>
 
             <div className={'HeroBanner ' + style.HomeBanner}>

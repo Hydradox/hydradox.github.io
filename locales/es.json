@@ -21,9 +21,7 @@
 
 		"aboutMe": [
 			"Soy un estudiante de ciclo en Desarrollo de Aplicaciones Web apasionado por las nuevas tecnlogías y el sector de las TIC.",
-
 			"Me considero una persona muy organizada y con una gran motivación a la hora de abarcar proyectos, en los cuales, dispongo de facilidad a la hora de adaptarme a las circunstancias.",
-
 			"Mis proyecciones personales a largo plazo incluyen; formar parte en un proyecto importante en una empresa del sector y desarrollar un proyecto propio con de una complejidad elevada."
 		],
 
@@ -41,45 +39,36 @@
 		"projects": [
 			{
 				"id": 1,
-				"name": "Aplicación de notas",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio."
+				"name": "Creador de eventos ICS",
+				"description": "Una pequeña aplicación para generar archivos .ics con parámetros adicionales para eventos recurrentes.\nLa característica principal es la posibilidad de repetir eventos cada X días, ignorando días concretos de la semana."
 			},{
 				"id": 2,
-				"name": "Mi portfolio",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
+				"name": "Red social Revels",
+				"description": "Un proyecto individual realizado para la asignatura de Entorno Servidor.\nConsiste en una red social con funcionalidades básicas como; registro, inicio de sesión, publicación de contenido, comentarios, etc."
 			},{
 				"id": 3,
-				"name": "Aplicación de notas con un título muy largo",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
+				"name": "Reproductor de video para React",
+				"description": "Proyecto parcial para crear un componente de React de un reproductor de video con funcionalidad avanazada.\nEl propósito es ser usado en otros proyectos, ya que las opciones en el mercado actual considero que dejan que desear."
 			},{
 				"id": 4,
-				"name": "Aplicación de notas",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
+				"name": "Chat de grupo",
+				"description": "Una pequeña aplicación web con una sala de chat única pensada para chatear con los compañeros de clase en momentos puntuales.\nIncluye la posibilidad de usar emojis y stickers personalizados, y cambiar tema claro/oscuro, entre otras cosas."
 			},{
 				"id": 5,
-				"name": "Aplicación de notas",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
-			},{
-				"id": 6,
-				"name": "Aplicación de notas",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
-			},{
-				"id": 7,
-				"name": "Aplicación de notas",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
-			},{
-				"id": 8,
-				"name": "Aplicación de notas",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
-			},{
-				"id": 9,
-				"name": "Aplicación de notas",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet nunc vel nisi placerat, et sodales nisi rutrum. Vestibulum viverra neque mauris, a tempus eros semper at. Ut non mi interdum, vestibulum justo sed, molestie odio. Vivamus condimentum consectetur enim, non luctus odio molestie a. Curabitur aliquam dignissim euismod. Donec neque augue, finibus a condimentum sit amet, aliquam commodo urna. Aliquam maximus fringilla ligula, quis viverra urna efficitur aliquet."
+				"name": "Mi portfolio",
+				"description": "Esta misma página web, es un proyecto personal con el objetivo de representar de forma más dinámica e interactiva mis habilidades y conocimientos."
 			}
 		],
 
 		"nextPath": "Mis estudios y conocimientos"
 	},
+
+
+	"knowledge": {
+		"title": "Conocimientos",
+		"nextPath": "¿Cómo contactarme?"
+	},
+
 
 	"contact": {
 		"title": "Contacto",

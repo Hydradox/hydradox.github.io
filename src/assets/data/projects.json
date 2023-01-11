@@ -1,84 +1,48 @@
 [
     {
         "id": 1,
-        "img": "notes-app.jpg",
-        "link": "https://github.com/Hydradox/hydradox.github.io",
+        "img": "calendar.png",
+        "link": "https://github.com/Hydradox/ICS-Events-Creator",
         "linkTxt": "GitHub",
         "tags": {
-            "tech": ["react", "node", "mongodb"],
-            "lang": ["sass", "javascript", "html"]
-        }
-    },{
-        "id": 2,
-        "img": "portfolio.jpg",
-        "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub",
-        "tags": {
-            "tech": ["angular", "mongodb"],
-            "lang": ["sass", "typescript"]
-        }
-    },{
-        "id": 3,
-        "img": "notes-app.jpg",
-        "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub",
-        "tags": {
-            "tech": ["vue", "node", "mongodb"],
+            "tech": ["electron", "node"],
             "lang": ["html", "css", "javascript"]
         }
     },{
-        "id": 4,
-        "img": "notes-app.jpg",
-        "link": "https://github.com/Hydradox/hydradox.github.io",
+        "id": 2,
+        "img": "revels.png",
+        "link": "https://github.com/Hydradox/Proyecto-Revels-EC",
         "linkTxt": "GitHub",
         "tags": {
-            "tech": ["react", "node", "mongodb"],
+            "tech": [],
+            "lang": ["php", "html", "css"]
+        }
+    },{
+        "id": 3,
+        "img": "rvp.png",
+        "link": "https://github.com/Hydradox/react-video-player",
+        "linkTxt": "GitHub",
+        "tags": {
+            "tech": ["react"],
+            "lang": ["html", "sass", "javascript"]
+        }
+    },{
+        "id": 4,
+        "img": "chat.png",
+        "link": "https://github.com/Hydradox/",
+        "linkTxt": "GitHub (Private repo)",
+        "tags": {
+            "tech": ["node", "mongodb"],
             "lang": ["html", "css", "javascript"]
         }
     },{
         "id": 5,
-        "img": "notes-app.jpg",
+        "img": "portfolio.jpg",
         "link": "https://github.com/Hydradox/hydradox.github.io",
         "linkTxt": "GitHub",
         "tags": {
-            "tech": ["react", "node", "mongodb"],
-            "lang": ["html", "css", "javascript"]
-        }
-    },{
-        "id": 6,
-        "img": "notes-app.jpg",
-        "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub",
-        "tags": {
-            "tech": ["next", "mongodb"],
-            "lang": ["css", "typescript"]
-        }
-    },{
-        "id": 7,
-        "img": "notes-app.jpg",
-        "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub",
-        "tags": {
-            "tech": ["react", "node", "mongodb"],
-            "lang": ["html", "css", "javascript"]
-        }
-    },{
-        "id": 8,
-        "img": "notes-app.jpg",
-        "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub",
-        "tags": {
-            "tech": ["react", "node", "mongodb"],
-            "lang": ["html", "css", "typescript"]
-        }
-    },{
-        "id": 9,
-        "img": "notes-app.jpg",
-        "link": "https://github.com/Hydradox/hydradox.github.io",
-        "linkTxt": "GitHub",
-        "tags": {
-            "tech": ["next", "mongodb"],
-            "lang": ["html", "css", "javascript"]
+            "tech": ["react"],
+            "lang": ["html", "sass", "javascript"]
         }
     }
 ]

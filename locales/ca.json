@@ -1,0 +1,90 @@
+{
+	"header": {
+		"home": "Inici",
+		"projects": "Projectes",
+		"knowledge": "Coneixements",
+		"contact": "Contacte"
+	},
+
+	"home": {
+		"title": "Inici",
+
+		"hello": "Hola, sóc",
+		"dev": "Desenvolupador",
+		"typewriterReverse": false,
+		"typewriter": [
+			"Frontend",
+			"Backend",
+			"Fullstack"
+		],
+		"learnMore": "Aprèn més sobre mi",
+
+		"aboutMe": [
+			"Soc un estudiant de Desenvolupament d'Aplicacions Web apassionat per les noves tecnologies i el sector de les TIC.",
+			"Considero que sóc una persona molt organitzada amb una gran motivació a l'hora de fer front a projectes, en els quals tinc facilitat per adaptar-me a les circumstàncies.",
+			"Les meues aspiracions personals a llarg termini inclouen; participar en un projecte important en una empresa del sector i desenvolupar un projecte propi amb un nivell d'alta complexitat."
+		],
+
+		"nextPath": "Coneix els meus projectes"
+	},
+
+	"projects": {
+		"title": "Projectes",
+		"searchProjectLabel": "Cerca un projecte",
+
+		"resetFilters": "Reinicia els filtres",
+		"filterByTech": "Filtra per tecnologies",
+		"filterByLang": "Filtra per idiomes",
+
+		"projects": [
+			{
+				"id": 1,
+				"name": "Creador de eventos ICS",
+				"description": "Una aplicació per a generar fitxers .ics amb paràmetres addicionals per a esdeveniments recurrents.\nLa característica principal és la possibilitat de repetir esdeveniments cada X dies, ignorant dies concrets de la setmana."
+			},{
+				"id": 2,
+				"name": "Xarxa social Revels",
+				"description": "Un projecte individual realitzat per a l'assignatura d'Entorn Servidor. Consisteix en una xarxa social amb funcionalitats bàsiques com; registre, inici de sessió, publicació de contingut, comentaris, etc."
+			},{
+				"id": 3,
+				"name": "Reproductor de vídeo per a React",
+				"description": "Projecte parcial per a crear un component de React d'un reproductor de vídeo amb funcionalitat avançada.\nEl propòsit és ser usat en altres projectes, ja que les opcions al mercat actual considero que no son bones."
+			},{
+				"id": 4,
+				"name": "Xat de grup",
+				"description": "Una aplicació web amb una sala de xat única pensada per xatejar amb els companys de classe en moments puntuals.\nInclou la possibilitat de fer servir emojis i stickers personalitzats, i canviar tema clar/oscur, entre altres coses."
+			},{
+				"id": 5,
+				"name": "El meu portfoli",
+				"description": "Aquesta mateixa pàgina web és un projecte personal amb l'objectiu de representar de manera més dinàmica i interactiva les meves habilitats i coneixements."
+			}
+		],
+
+		"nextPath": "Mis estudis i coneixements"
+	},
+
+
+	"knowledge": {
+		"title": "Coneixements",
+		"nextPath": "Com contactar amb mi?"
+	},
+
+
+	"contact": {
+		"title": "Contacte",
+
+		"contactForm": {
+			"contactMe": "Contacta'm",
+			"name": "Nom",
+			"email": "Correu electrònic",
+			"message": "Missatge",
+			"send": "Enviar missatge"
+		},
+
+		"socialDesc": {
+			"github": "El meu repositori personal on comparteixo els meus projectes",
+			"instagram": "El lloc on comparteixo els millors moments de les meves aventures",
+			"linkedin": "El meu perfil professional amb la meva experiència laboral i els meus estudis"
+		}
+	}
+}

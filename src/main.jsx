@@ -10,11 +10,13 @@ import Err404 from './routes/Err404'
 
 import Home from './routes/Home'
 import Projects from './routes/Projects'
+import Knowledge from './routes/Knowledge'
 import Contact from './routes/Contact';
 
 const routes = [
 	{ path: '/', element: <Home />, nodeRef: createRef() },
 	{ path: '/projects', element: <Projects />, nodeRef: createRef() },
+	{ path: '/knowledge', element: <Knowledge />, nodeRef: createRef() },
 	{ path: '/contact', element: <Contact />, nodeRef: createRef() },
 	{ path: '*', element: <Err404 />, nodeRef: createRef() }
 ]
