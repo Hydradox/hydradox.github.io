@@ -84,8 +84,6 @@ function Projects() {
                     <div className={style.Filter}>{t('filterByLang')}:</div>
                     <div className={style.TagsWrapper}>{parseTags('lang')}</div>
                 </div>
-
-                <p>*Los proyectos listados actualmente son casos de prueba</p>
             </section>
 
             <section className='Section'>
