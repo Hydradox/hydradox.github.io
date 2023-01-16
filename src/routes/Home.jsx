@@ -52,7 +52,7 @@ function Home() {
                     </div>
 
                     <div className={style.BannerColumn}>
-                        <img src="/jcm-programmer.jpg" alt="Jaime programming" />
+                        <img src="/jcm.jpg" alt="Jaime programming" />
                     </div>
                 </div>
 

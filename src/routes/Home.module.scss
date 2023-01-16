@@ -42,12 +42,9 @@ $learnMoreHeight: 4rem;
         width: 70%;
         height: 60%;
         object-fit: cover;
+        object-position: center;
 
-        box-shadow: 10px 10px 10px 5px #001622cc;
-
-        // Transform 3D effect left side
-        transform: perspective(800px) rotateY(-15deg) scale(0.9) rotateX(5deg);
-        transform-style: preserve-3d;
+        box-shadow: 5px 5px 10px 0px #001622cc;
     }
 
     * {

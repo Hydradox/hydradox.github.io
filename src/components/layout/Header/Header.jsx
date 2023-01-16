@@ -4,7 +4,6 @@ import { NavLink, Link } from 'react-router-dom'
 
 import { useTranslation } from 'react-i18next'
 
-import Logo from '../../../assets/Logo'
 import ThemeSwitch from '../../ui/ThemeSwitch/ThemeSwitch'
 import LngSelector from '../../ui/LngSelector/LngSelector'
 
@@ -28,13 +27,13 @@ function Header({ isMobile }) {
 
     return (
         <header className={style.Header}>
-            <Link className={style.Logo} to="/"><Logo darkIcon={!isDarkMode} /></Link>
+            <Link className={style.Logo} to="/"><img src={`/jcm-${isDarkMode ? 'white' : 'black'}.png`} alt="Logo" /> </Link>
 
             {!isMobile && (
             <nav>
                 <NavLink className={({isActive}) => `${style.NavLink}${isActive ? activeClass : ''}`} to="/">{t('home')}</NavLink>
                 <NavLink className={({isActive}) => `${style.NavLink}${isActive ? activeClass : ''}`} to="/projects">{t('projects')}</NavLink>
-                <NavLink className={({isActive}) => `${style.NavLink}${isActive ? activeClass : ''}`} to="/knowledge">{t('knowledge')}</NavLink>
+                {/* <NavLink className={({isActive}) => `${style.NavLink}${isActive ? activeClass : ''}`} to="/knowledge">{t('knowledge')}</NavLink> */}
                 <NavLink className={({isActive}) => `${style.NavLink}${isActive ? activeClass : ''}`} to="/contact">{t('contact')}</NavLink>
             </nav>)}
 

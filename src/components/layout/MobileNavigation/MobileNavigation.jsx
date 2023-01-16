@@ -24,10 +24,10 @@ function MobileNavigation() {
                 <span className={style.Label}>{t('projects')}</span>
             </NavLink>
 
-            <NavLink className={({isActive}) => `${style.NavLink}${isActive ? activeClass : ''}`} to="/knowledge">
+            {/* <NavLink className={({isActive}) => `${style.NavLink}${isActive ? activeClass : ''}`} to="/knowledge">
                 <Books />
                 <span className={style.Label}>{t('knowledge')}</span>
-            </NavLink>
+            </NavLink> */}
 
             <NavLink className={({isActive}) => `${style.NavLink}${isActive ? activeClass : ''}`} to="/contact">
                 <Contact />
